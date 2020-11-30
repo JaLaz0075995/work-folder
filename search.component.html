@@ -1,0 +1,16 @@
+ 
+<body>
+
+<div>    
+<p>find your new favorite brewery !</p>
+<ul>
+<li *ngFor="let name in query">
+</li>       
+<input type="text"[(ngModel)]="name">
+<button (click)="onClick()">find brewskis</button>
+{{Rews}}
+{{name}}
+</ul>
+<img src="https://www.throwbackbrewery.com/wp-content/uploads/2017/12/Throwback_Heading_BG_Home.jpg" height = 400px wdith = 320px>
+</div>
+</body>
